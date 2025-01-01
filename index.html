@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noise Cancellation Web Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+        button {
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button.start {
+            background-color: #4CAF50;
+            color: white;
+        }
+        button.stop {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Noise Cancellation Web Application</h1>
+    <p>Use this app with earphones for better results.</p>
+    <button id="start-btn" class="start">Start</button>
+    <button id="stop-btn" class="stop" disabled>Stop</button>
+    <script src="./script.js"></script>
+</body>
+</html>
